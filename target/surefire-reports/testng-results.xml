@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-09T09:58:35 CET" name="User" finished-at="2024-12-09T09:58:55 CET" duration-ms="19409">
+    <groups>
+    </groups>
+    <test started-at="2024-12-09T09:58:35 CET" name="User" finished-at="2024-12-09T09:58:55 CET" duration-ms="19409">
+      <class name="com.demoqa.tests.SearchBookTests">
+        <test-method is-config="true" signature="init(java.lang.reflect.Method)[pri:0, instance:com.demoqa.tests.SearchBookTests@11fc564b]" started-at="2024-12-09T09:58:47 CET" name="init" finished-at="2024-12-09T09:58:54 CET" duration-ms="7259" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demoqa.tests.SearchBookTests.searchBookPositiveTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:com.demoqa.tests.SearchBookTests@11fc564b]" started-at="2024-12-09T09:58:54 CET" name="precondition" finished-at="2024-12-09T09:58:54 CET" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="searchBookPositiveTest()[pri:0, instance:com.demoqa.tests.SearchBookTests@11fc564b]" started-at="2024-12-09T09:58:54 CET" name="searchBookPositiveTest" finished-at="2024-12-09T09:58:55 CET" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBookPositiveTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.demoqa.tests.SearchBookTests@11fc564b]" started-at="2024-12-09T09:58:55 CET" name="tearDown" finished-at="2024-12-09T09:58:55 CET" duration-ms="99" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchBookPositiveTest status=SUCCESS method=SearchBookTests.searchBookPositiveTest()[pri:0, instance:com.demoqa.tests.SearchBookTests@11fc564b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demoqa.tests.SearchBookTests -->
+      <class name="com.demoqa.tests.LoginTests">
+        <test-method is-config="true" signature="init(java.lang.reflect.Method)[pri:0, instance:com.demoqa.tests.LoginTests@58a9760d]" started-at="2024-12-09T09:58:35 CET" name="init" finished-at="2024-12-09T09:58:46 CET" duration-ms="10365" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demoqa.tests.LoginTests.loginPositiveTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:com.demoqa.tests.LoginTests@58a9760d]" started-at="2024-12-09T09:58:46 CET" name="precondition" finished-at="2024-12-09T09:58:46 CET" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="loginPositiveTest()[pri:0, instance:com.demoqa.tests.LoginTests@58a9760d]" started-at="2024-12-09T09:58:46 CET" name="loginPositiveTest" finished-at="2024-12-09T09:58:47 CET" duration-ms="1143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPositiveTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.demoqa.tests.LoginTests@58a9760d]" started-at="2024-12-09T09:58:47 CET" name="tearDown" finished-at="2024-12-09T09:58:47 CET" duration-ms="111" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginPositiveTest status=SUCCESS method=LoginTests.loginPositiveTest()[pri:0, instance:com.demoqa.tests.LoginTests@58a9760d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demoqa.tests.LoginTests -->
+    </test> <!-- User -->
+  </suite> <!-- User -->
+</testng-results>
